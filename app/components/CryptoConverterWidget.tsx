@@ -182,7 +182,7 @@ const CryptoConverterWidget: React.FC = () => {
     ];
 
     return (
-        <div className="relative w-full max-w-[640px] bg-white border border-[#CCF6E5] rounded-[20px] sm:rounded-[30px] px-3 sm:px-6 md:px-16 pb-6 sm:pb-8 md:pb-14 pt-4 sm:pt-6 md:pt-10 mx-auto">
+        <div className="relative w-full max-w-[640px] bg-white border border-[#CCF6E5] rounded-[10px] sm:rounded-[30px] px-3 sm:px-6 md:px-16 pb-6 sm:pb-8 md:pb-14 pt-4 sm:pt-6 md:pt-10 mx-auto">
             <TabSelector
                 tabs={['Crypto to cash', 'Cash to crypto', 'Crypto to fiat loan']}
                 activeTab={activeTab}

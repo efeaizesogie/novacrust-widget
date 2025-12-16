@@ -11,7 +11,7 @@ const WalletDropdown: React.FC<WalletDropdownProps> = ({
     onClose
 }) => {
     return (
-        <div className="absolute left-1/2 transform -translate-x-1/2 flex flex-col items-start p-3 gap-2 w-[464px] bg-white border border-[#E0E0E0] rounded-[20px] shadow-lg z-10">
+        <div className="flex flex-col items-start p-2 sm:p-3 gap-2 w-full max-w-[464px] bg-white border border-[#E0E0E0] rounded-[15px] sm:rounded-[20px] shadow-lg z-10">
             {options.map((option, index) => (
                 <button
                     key={index}
@@ -19,7 +19,7 @@ const WalletDropdown: React.FC<WalletDropdownProps> = ({
                         onSelect(option);
                         onClose();
                     }}
-                    className={`flex items-center w-full p-3 gap-2 rounded-xl ${
+                    className={`flex items-center w-full p-2 sm:p-3 gap-2 rounded-xl cursor-pointer ${
                         selectedOption?.name === option.name
                             ? 'bg-[#F5F5F5]'
                             : 'hover:bg-[#F5F5F5]'
