@@ -36,7 +36,7 @@ const CryptoDropdown: React.FC<CryptoDropdownProps> = ({
                         onSelect(option);
                         onClose();
                     }}
-                    className={`flex items-center w-full p-3 gap-2 rounded-xl ${
+                    className={`flex items-center w-full p-3 gap-2 rounded-xl cursor-pointer ${
                         selectedOption?.symbol === option.symbol && selectedOption?.network === option.network
                             ? 'bg-[#F5F5F5]'
                             : 'hover:bg-[#F5F5F5]'

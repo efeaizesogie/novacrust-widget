@@ -20,7 +20,7 @@ const Dropdown: React.FC<DropdownProps> = ({
             </span>
             <button
                 onClick={onClick}
-                className="flex items-center justify-between w-full px-4 sm:px-6 py-3 bg-white border border-[#E0E0E0] rounded-[20px] sm:rounded-[30px] h-[50px] sm:h-[60px]"
+                className="flex items-center justify-between w-full px-4 sm:px-6 py-3 bg-white border border-[#E0E0E0] rounded-[20px] sm:rounded-[30px] h-[50px] sm:h-[60px] cursor-pointer"
             >
                 <span
                     className="text-base font-normal text-[#013941]"

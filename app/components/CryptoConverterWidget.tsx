@@ -274,7 +274,7 @@ const CryptoConverterWidget: React.FC = () => {
             <button
                 onClick={handleConvert}
                 disabled={isConverting}
-                className={`flex items-center justify-center px-6 sm:px-10 py-4 sm:py-5 gap-2 w-full max-w-[512px] h-[60px] rounded-[30px] transition-all mx-auto ${
+                className={`flex items-center justify-center px-6 sm:px-10 py-4 sm:py-5 gap-2 w-full max-w-[512px] h-[60px] rounded-[30px] transition-all mx-auto cursor-pointer ${
                     isConverting || !payAmount || payAmount === '0'
                         ? 'bg-gray-400 cursor-not-allowed'
                         : 'bg-[#013941] hover:bg-[#024651]'

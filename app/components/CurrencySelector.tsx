@@ -12,7 +12,7 @@ const CurrencySelector: React.FC<CurrencySelectorProps> = ({
     return (
         <button
             onClick={onClick}
-            className="flex items-center justify-center px-3 py-2 gap-1 bg-[#F7F7F7] border border-[#E0E0E0] rounded-[20px] h-9"
+            className="flex items-center justify-center px-3 py-2 gap-1 bg-[#F7F7F7] border border-[#E0E0E0] rounded-[20px] h-9 cursor-pointer"
         >
             <div
                 className="w-5 h-5 rounded-full bg-white "
